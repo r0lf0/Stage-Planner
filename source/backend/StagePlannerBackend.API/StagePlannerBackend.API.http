@@ -1,0 +1,6 @@
+@Stage_Planner_Backend.API_HostAddress = http://localhost:5072
+
+GET {{Stage_Planner_Backend.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
