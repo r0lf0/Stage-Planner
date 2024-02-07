@@ -1,0 +1,41 @@
+# Imposta il comportamento predefinito per evitare che git converta automaticamente gli andati a capo in CRLF quando si clona un repository.
+* text=auto
+
+# .NET e file di progetto correlati
+*.cs text
+*.csproj text
+*.config text
+*.json text
+*.sln text eol=crlf
+*.cshtml text
+*.razor text
+
+# React e file JavaScript/TypeScript
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.css text
+*.scss text
+*.html text
+
+# Gestione degli script
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Documentazione e file markdown
+*.md text
+*.txt text
+
+# Immagini e file binari
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+
+# Altri file binari comuni in sviluppo .NET
+*.dll binary
+*.exe binary
+*.pdb binary
+*.nupkg binary
